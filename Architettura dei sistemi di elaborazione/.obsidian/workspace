@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "d57883da0106a2a8",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e2bda0b54a2b083",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Info.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e0f0be995eae6f69",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7e59c8f4f28ebd8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11892e6029109b6b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b581ce9c13b64832",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0386b7609948306e",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd21383b6f80b1c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b4a94f58105a56f2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Info.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "0e2bda0b54a2b083",
+  "lastOpenFiles": [
+    "Info.md",
+    "Introduzione alle reti.md",
+    "Livello di rete in Internet.md"
+  ]
+}

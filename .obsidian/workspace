@@ -1,0 +1,103 @@
+{
+  "main": {
+    "id": "b2b49ae052ab6ac8",
+    "type": "split",
+    "children": [
+      {
+        "id": "f2a6d8166800e4d4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Elementi di programmazione/Teoria di Python.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5acd15ade028f71d",
+    "type": "split",
+    "children": [
+      {
+        "id": "8bc8940af5dda04c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6268cae1963568d8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e0f0b25eaa6dc67c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 318,
+    "collapsed": true
+  },
+  "right": {
+    "id": "c586a23a08ab776c",
+    "type": "split",
+    "children": [
+      {
+        "id": "89fd114d7486e4de",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "69d6ca5d5b4cce26",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Elementi di programmazione/Teoria di Python.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 887,
+    "collapsed": true
+  },
+  "active": "f2a6d8166800e4d4",
+  "lastOpenFiles": [
+    "Elementi di programmazione/Teoria di Python.md",
+    "Soft Skills/Lez2 - 13apr.md",
+    "Soft Skills/Lez1 - 6apr.md",
+    "Senza nome.md",
+    "Elementi di programmazione/Codice etico in Python.md",
+    "Software Security/Pratica.md",
+    "Software Security/Lez01 - 7-8apr.md",
+    "Software Security/Lez DEF.md",
+    "Sicurezza sul Lavoro/Sicurezza sul lavoro.md",
+    "Soft Skills/Lezione2 - 10mar.md"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  },
+  "legacyEditor": true,
+  "showLineNumber": false,
+  "autoPairMarkdown": true,
+  "foldHeading": false,
+  "foldIndent": false,
+  "showIndentGuide": false
+}
