@@ -1331,7 +1331,7 @@ array2d = [[' ' for i in range(3)] for i in range(3)]
 
 **Inner classes** sono delle classi dichiarate all'interno di altre classi in modo da poterle "rendere private"
 
-Se definiamo la classe Account in questo modo, dal file main possiamo richiamare direttamente Account
+Se definiamo la classe Account in questo modo, dal file NON main possiamo richiamare direttamente Account
 ```python
 class Banca:
 	def __init__(self):
