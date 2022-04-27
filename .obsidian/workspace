@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Elementi di programmazione/Teoria di Python.md",
-            "mode": "preview"
+            "file": "OSINT/Teoria.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Elementi di programmazione/Teoria di Python.md",
+                "file": "OSINT/Teoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f2a6d8166800e4d4",
   "lastOpenFiles": [
+    "OSINT/Teoria.md",
+    "OSINT/Esercizi.md",
     "Elementi di programmazione/Teoria di Python.md",
     "Soft Skills/Lez2 - 13apr.md",
     "Soft Skills/Lez1 - 6apr.md",
-    "Senza nome.md",
     "Elementi di programmazione/Codice etico in Python.md",
     "Software Security/Pratica.md",
     "Software Security/Lez01 - 7-8apr.md",
     "Software Security/Lez DEF.md",
-    "Sicurezza sul Lavoro/Sicurezza sul lavoro.md",
-    "Soft Skills/Lezione2 - 10mar.md"
+    "Sicurezza sul Lavoro/Sicurezza sul lavoro.md"
   ]
 }

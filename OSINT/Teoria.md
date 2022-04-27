@@ -103,12 +103,14 @@ La pericolosità di un informazione trovata si calcola tramite:
 
 La parte OSINT è importante e viene ancora molto trascurata da attaccanti e **soprattutto da difensori**.
 
-#### Tipi di raccolta OSINT
-- **Passivo**: utilizzo dei tool senza mai interagire direttamente con la struttura/persona coinvolta, quindi **questi non possono essere allertati tramite alcuni dispositivi di sicurezza**
+#### Tipi di raccolta intelligence
+- **Passivo**: utilizzo dei tool senza mai interagire direttamente con la struttura/persona coinvolta, quindi **questi non possono essere allertati tramite alcuni dispositivi di sicurezza** --> OSINT
 
 - **Attivo**, agisco in maniera *aggressiva* all'interno di un sito (ad esempio). **Possiamo essere identificati** da strumenti come **IDS** (sistema rilevamento intrusioni) e **IPS**. In questo caso **si cerca di sorpassare le difese della risorsa** e quindi **NON si accede più solo a informazioni pubbliche**. Comportano **conseguenze legali**.
+**NB**. Genera un traffico di rete **anomalo e rilevabile** 
 
-- **Semipassivo**, è una via di mezzo
+
+- **Semipassivo**, è una via di mezzo, modalità attiva che si svolte sotto la soglia di rilevamento, più costosa, **genera un traffico molto limitato**. --> STEALTH INTELLIGENCE
 
 #### Informazioni (SPI)
 Le informazioni possono essere di diverse tipologie:
@@ -330,3 +332,270 @@ Esistono diverse fonti di informazioni standard e non
 - **Intelligence open source (OSINT)** si tratta di informazioni che sono state **scoperte, filtrate e designate** per soddisfare un'esigenza o uno scopo specifico.
 
 Quando le informazioni non sono facilmente capibili dobbiamo trasformarle in un report capibile.
+
+<br>
+<br>
+
+## Data carving
+#### Proprietà di un file
+- Nome
+- Tipo (=estensione)
+- Contenuto
+- Dimensione
+- Posizione sul disco
+- Ultimo accesso
+- Ultima modifica
+- Data creazione
+
+In un file però può mancare l'estensione, in questo modo non riusciamo subito a capire la tipologia di file.
+
+I **MAGIC NUMBER** sono dei numeri all'interno del file, ogni file è caratterizzato da avere un **hex all'inizio del file**.
+*Es. i file JPEG iniziamo sempre con "FF D8"*
+
+La tipologia di un file NON è data dall'estensione ma dal primo byte dell'esadecimale
+
+#### Metadati
+All'interno di un file sono presenti anche dei **metadati**.
+
+#### Steganografia
+È l'arte di **nascondere informazioni all'interno di altri file**.
+La stegonografia venne utilizzata per la prima volta da Giulio Cesare.
+
+<br>
+<br>
+
+## Analisi delle Fonti Aperte - OSINT
+Esistono molte forme di Intelligence (al di la dell'OSINT):
+- Financial Intelligence
+- Geospatial Intelligence
+- Photo Intelligence
+- Communications Intelligence
+- ...
+
+OSINT = Open Source INTelligence, dove:
+- **Open Source si riferisce alla ricerca di informazioni tratte da fonti liberamente disponibili** (non all'open source)
+- Si differenzia dalla attività di Intelligence in quanto le **informazioni NON sono ottenute "illegalmente"**
+
+*Non si parla solo di raccolta ma anche di verifica e analisi delle informazioni.*
+
+**Open Source Data (OSD)** -> dati grezzi da una fonte primaria
+**Open Source Information (OSI)** -> dati grezzi che possono essere messi insieme che fornisce filtri e validazioni
+**Open Source Intelligence (OSINT)** -> informazione che è stata deliberatamente scoperta al fine di rispondere ad una domanda
+**Validated OSINT (OSINT-V)** -> l'informazione non è solo stata trovata ma anche VERIFICATA
+
+**NB**. Spesso l'OSINT viene utilizzato per una valutazione di sicurezza.
+
+*Se prima era sufficiente analizzare qualche giornale o libro, oggi è molto più complesso.*
+
+Ogni servizio internet raccoglie informazioni sui suoi utenti (log, statistiche)
+
+#### Sintesi direttive NATO
+*Vedi slide*
+
+#### Sistema conferma informazioni
+Le **informazioni** che troviamo **devo essere verificate**:
+
+*Es. Trovare la data di nascita di una persona: se trovo una pluralità di fonti concordi posso considerarle valide.*
+
+**NB**. Una ricerca accurata RICHIEDE TEMPO!
+
+#### Problemi operatori OSINT
+- Linguaggio/barriere culturali (le informazioni non sono solo in Italiano e Inglese)
+- Troppa fiducia nei tools automatici
+- Disinformazione:
+	1. Le informazioni possono essere **false**
+	2. Le informazioni possono essere **manipolate**
+	3. **Impossibilità di accesso legale all'informazione**
+
+#### Caso Koobface
+Colpisce gli utenti di Facebook:
+Dopo l'infezione rimanda la connessione internet su pagine di Rogueware, inoltre tenta di ottenere informazioni sensibili delle vittime come numeri di carta di credito o dati di accesso
+
+*Un ricercatore è riuscito a scoprire numero di telefono, nome e indirizzo del botnet master, cercando tutti i domini riconducibili allo stesso IP, uno di questi era registrato con una mail diversa dalle altre.*
+
+#### Modalità di fase OSINT
+- **MANUALE**, la ricerca viene effettuata direttamente dall'operatore
+- **AUTOMATICA**, la ricerca viene effettuata tramite strumenti parametrizzabili
+	- Serve una scrematura
+	- Potenzialmente molto efficace
+	- **Rischio di falsi positivi dovuti a AI non evoluta come analista**
+
+La **soluzione è un MIX** tra le due. Tools e API possono automatizzare le attività ma una gran parte dei risultati sono **basati sull'intuito**. Inoltre l'**esperienza** aiuta molto.
+
+#### Strutturare le informazioni
+- **Link analysis**, l'analisi dei collegamenti è una tecnica di analisi dei dati utilizzata per **valutare le relazioni tra i nodi**.
+- 
+- **Mind mapper** (o **Mappa mentale**)
+
+<br>
+<br>
+
+## COSA e DOVE cercare
+**Come pianifico l'investigazione OSINT?**, bisogna definire:
+- Target
+- Obiettivi
+- Regole di ingaggio
+
+*Lo scopo non è un report da 200 pagine superflue, devo concentrarmi sulle informazioni utili*
+
+#### Pianificazione delle fasi - OSINT
+1. **Definire obiettivo e fonti**: elenco le mie fonti
+2. **Raccolgo i dati** dalle fonti identificate nella fase precedente
+3. **Analizzo e confronto** i dati raccolti
+4. **Diffusione dei report** contenenti i dati precedentemente raccolti e rielaborati
+5. **Misuro il gradimento del cliente**
+
+**NB**. Nei report c'è bisogno di una **approvazione** e **revisione**
+
+#### Classificazioni delle fonti
+- Informazioni generali
+- Informazioni a pagamento
+- Esperti
+- **Documenti "grigi"** (brevetti, report, pubblicazioni ad uso interno)
+- ODS, dati grezzi, generici
+- OSIF, informazione pubblica che ha subito un processo di filtraggio
+- OSINT, mix tra ods e osif
+
+#### Come vengono trattate le fonti?
+- **Strumenti di hacking**
+- **Avanzato uso dei motori di ricerca** (google dorks)
+- **Utilizzo di portali di investigazioni online**
+
+#### Possibili fonti
+- Motori di ricerca
+- Social network
+- Chat
+- Blog
+- Siti di vendita
+- Siti di immagini o video sharing
+- Siti di incontri
+- Giornali, pubblica amministrazione, camere di commercio
+- Archivi pubblici, organizzazioni governative
+- Siti istituzionali, Deep WEB
+- Servizi specializzati nella ricerca, valutazione e vendita info
+- Informazioni tecniche dalla rete internet (es. **Maltego**)
+
+#### Alcune metodologie
+- Ricerca per parole chiave
+- Analisi delle immagini
+- Correlazione informazioni
+- Analisi dell'ambiente
+- Analisi dei contatti (tramite un'altra persona correlata al mio target)
+- Analisi informazioni tecniche internet
+
+#### Devo cercare tutto?
+NO, la ricerca:
+- Dipende dal soggetto della ricerca
+- Dipende dalla domanda a cui bisogna rispondere
+- Le **keyword e gli argomenti cambiano** nel corso dell'analisi
+- Bisogna correlare le risposte per individuare **nuove direzioni di ricerca**
+
+**NB**. È importante lavorare ordinate altrimenti si rischia di perdere il filo della ricerca
+
+#### Alcune problematiche
+- Troppe informazioni
+- Capire se una informazione è vera, falsa o manipolata
+- Difficoltà linguistiche
+
+#### Cognitive BIAS
+È un pattern sistematico di deviazione dalla norma o dalla razionalità nel giudizio.
+
+In psicologia indica la tendenza a creare la propria realtà soggettiva, sviluppata sulla base dell'interpretazione delle informazioni in possesso, anche se non logicamente connesse tra loro. Questo **porta dunque a un errore di valutazione o a mancanza di oggettività di giudizio**.
+
+**NB**. **NON dobbiamo dare interpretazioni/giudizi personali** (secondo me, probabilemente,...)
+
+Quanto abbiamo un intuizione, ciò che vediamo lo elaboriamo per confermare la nostra intuizione --> *L'apparenza inganna*
+
+Nel caso di giudizi/opinioni/intuizioni bisogna confermarli **in modo oggettivo**.
+
+**NB**. Nella Cyber Security, tutto **deve essere dimostrato oggettivamente**
+
+#### Creazione di un profilo del soggetto
+- Lavoro, famiglia, amici, hobby
+- Prodotti, mercato, clienti, fornitori
+- Localizzazione geografica
+- Studi, interessi
+
+*Si può anche partire dal contrario*
+
+#### Altri motori di ricerca
+- **Pipl**, motore di ricerca specializzato su persone
+
+**NB**. I motori di ricerca NON sono infallibili. Come funzionano?
+- Spider o Crawler
+- Un database che indicizza i risultati del lavoro dello spider
+- Un motore di backend che analizza le richieste ed i contenuti del database, **assegnango il "rank" e fornendo i risultati in base ad algoritmi** proprietari che cambiano continuamente
+
+**NB**. Il rank di una pagina aumenta nel caso altri siti puntino a quella pagina
+
+**Non tutti i motori di ricerca sono uguali**, durante l'analisi OSINT quindi devo affidarmi a più motori di ricerca (anche di diverse lingue)
+
+### Google VS Bing VS DuckDuckGo
+![[inserisci immagine della slide]]
+
+*In molti casi i motori di ricerca si comportano in modo diverso...*
+
+Spesso alcuni motori di ricerca vengono utilizzati solo per la specifica nazione
+
+**NB**. La maggior parte degli strumenti di ricerca al di fuori degli USA raccolgono e memorizzano dati principalmente o esclusivamente dalla loro regione o paese
+
+**Google.com** lavora in modo diverso da google.it e **fornisce più informazioni**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
