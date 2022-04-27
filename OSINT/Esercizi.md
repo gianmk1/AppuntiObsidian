@@ -13,7 +13,7 @@ Le trasformate ci permettono di ottenere informazioni su un target
 - **To relationship**, mi da un'idea dell'infrstruttura del sito
 - **Find in entity properties:**
 
-- **TO DNSnames**: mi da le strutture che forniscono servizi DNS al sito
+- **TO DNSnames**: mi da le risoluzioni DNS
 - **To domains**: mi da più informazioni sul dominio
 
 - **Email addresses from domain**
