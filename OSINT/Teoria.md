@@ -530,7 +530,7 @@ Nel caso di giudizi/opinioni/intuizioni bisogna confermarli **in modo oggettivo*
 
 **Non tutti i motori di ricerca sono uguali**, durante l'analisi OSINT quindi devo affidarmi a più motori di ricerca (anche di diverse lingue)
 
-### Google VS Bing VS DuckDuckGo
+#### Google VS Bing VS DuckDuckGo
 ![[inserisci immagine della slide]]
 
 *In molti casi i motori di ricerca si comportano in modo diverso...*
@@ -540,62 +540,5 @@ Spesso alcuni motori di ricerca vengono utilizzati solo per la specifica nazione
 **NB**. La maggior parte degli strumenti di ricerca al di fuori degli USA raccolgono e memorizzano dati principalmente o esclusivamente dalla loro regione o paese
 
 **Google.com** lavora in modo diverso da google.it e **fornisce più informazioni**
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

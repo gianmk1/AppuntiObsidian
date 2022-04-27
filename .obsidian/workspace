@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OSINT/Teoria.md",
+            "file": "OSINT/Esercizi.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSINT/Teoria.md",
+                "file": "OSINT/Esercizi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,8 +88,8 @@
   },
   "active": "f2a6d8166800e4d4",
   "lastOpenFiles": [
-    "OSINT/Teoria.md",
     "OSINT/Esercizi.md",
+    "OSINT/Teoria.md",
     "Elementi di programmazione/Teoria di Python.md",
     "Soft Skills/Lez2 - 13apr.md",
     "Soft Skills/Lez1 - 6apr.md",
