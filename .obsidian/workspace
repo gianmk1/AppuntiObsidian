@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OSINT/Teoria.md",
-            "mode": "source"
+            "file": "Web e mobile (prof. Chiarello)/Android Studio.md",
+            "mode": "preview"
           }
         }
       }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391
+    "width": 361
   },
   "right": {
     "id": "c586a23a08ab776c",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSINT/Teoria.md",
+                "file": "Web e mobile (prof. Chiarello)/Android Studio.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "f8543a8cf57f1e27",
   "lastOpenFiles": [
-    "OSINT/Teoria.md",
-    "OSINT/Resources.md",
-    "OSINT/Esercizi.md",
-    "www.lullar.com.md",
-    "www.dnsdumpster.com.md",
-    "Elementi di programmazione/Teoria di Python.md",
-    "Soft Skills/Lez2 - 13apr.md",
-    "Soft Skills/Lez1 - 6apr.md",
-    "Elementi di programmazione/Codice etico in Python.md",
-    "Software Security/Pratica.md"
+    "Web e mobile (prof. Chiarello)/Android Studio.md",
+    "Web e mobile (prof. Chiarello)/Windows Server.md",
+    "Web e mobile (prof. Chiarello)/Wordpress.md",
+    "Web e mobile (prof. Chiarello)/Tomcat.md",
+    "Web e mobile (prof. Chiarello)/Servlet.md",
+    "Web e mobile (prof. Chiarello)/Istruzioni laboratorio (da rifinire).md",
+    "Web e mobile (prof. Chiarello)/Laboratorio (da spostare) - webmobile.md",
+    "Ethical Hacking - Pajola/Lez3 - 03feb - Crypto Tools pt1.md",
+    "Ethical Hacking - Pajola/Lez2 - 01feb - Encoding.md",
+    "Ethical Hacking - Pajola/PDF/lez01_1-16gen-INTRODUZIONE.pdf"
   ]
 }
