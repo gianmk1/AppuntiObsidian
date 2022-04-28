@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f2a6d8166800e4d4",
+        "id": "f8543a8cf57f1e27",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OSINT/Esercizi.md",
+            "file": "OSINT/Resources.md",
             "mode": "source"
           }
         }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 391,
-    "collapsed": true
+    "width": 391
   },
   "right": {
     "id": "c586a23a08ab776c",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSINT/Esercizi.md",
+                "file": "OSINT/Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +86,17 @@
     "width": 328,
     "collapsed": true
   },
-  "active": "f2a6d8166800e4d4",
+  "active": "f8543a8cf57f1e27",
   "lastOpenFiles": [
+    "OSINT/Resources.md",
     "OSINT/Esercizi.md",
     "OSINT/Teoria.md",
+    "www.lullar.com.md",
+    "www.dnsdumpster.com.md",
     "Elementi di programmazione/Teoria di Python.md",
     "Soft Skills/Lez2 - 13apr.md",
     "Soft Skills/Lez1 - 6apr.md",
     "Elementi di programmazione/Codice etico in Python.md",
-    "Software Security/Pratica.md",
-    "Software Security/Lez01 - 7-8apr.md",
-    "Software Security/Lez DEF.md",
-    "Sicurezza sul Lavoro/Sicurezza sul lavoro.md"
+    "Software Security/Pratica.md"
   ]
 }
