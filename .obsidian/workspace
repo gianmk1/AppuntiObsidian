@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "OSINT/Resources.md",
+            "file": "OSINT/Teoria.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "OSINT/Resources.md",
+                "file": "OSINT/Teoria.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,9 +88,9 @@
   },
   "active": "f8543a8cf57f1e27",
   "lastOpenFiles": [
+    "OSINT/Teoria.md",
     "OSINT/Resources.md",
     "OSINT/Esercizi.md",
-    "OSINT/Teoria.md",
     "www.lullar.com.md",
     "www.dnsdumpster.com.md",
     "Elementi di programmazione/Teoria di Python.md",

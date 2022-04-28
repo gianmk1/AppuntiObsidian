@@ -541,4 +541,27 @@ Spesso alcuni motori di ricerca vengono utilizzati solo per la specifica nazione
 
 **Google.com** lavora in modo diverso da google.it e **fornisce più informazioni**
 
+#### Social network
+Sono molti i social network in cui è possibile cercare, e cambiano da nazionalità a nazionalità
 
+![[vedi confronto mappe 2017 - 2019]]
+
+#### Comunità virali
+- Forum
+- Gaming
+- Blogs
+- Mailing list
+
+<br>
+<br>
+
+## Foto - Immagini
+#### Trovare il primo utilizzo
+[TinEye](https://tineye.com/)
+
+**NB**. Questo ci permette di arrivare al primo sito che ha postato la foto. **Non è detto però che sia la fonte primaria**.
+
+#### Exif
+Esistono molti programmi o plugin che ci permettono di analizzare i metadati di una foto / immagine. Se la foto è stata scattata da un cellulare possiamo anche **trovare la posizione** in cui è stata scaricata la foto.
+
+**NB**. Ogni volta che una foto viene caricata sui social i **metadati vengono cancellati**.
