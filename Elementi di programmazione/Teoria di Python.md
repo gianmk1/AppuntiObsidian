@@ -1394,3 +1394,5 @@ json.dumps()  # permette di caricare in una variabile un testo json
 - Doppi punti per coppia chiave - valore
 
 Per utilizzare il file json correttamente dobbiamo conoscere le chiavi,...
+
+dfhdghdth
