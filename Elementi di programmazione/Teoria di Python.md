@@ -1395,4 +1395,3 @@ json.dumps()  # permette di caricare in una variabile un testo json
 
 Per utilizzare il file json correttamente dobbiamo conoscere le chiavi,...
 
-dfhdghdth
