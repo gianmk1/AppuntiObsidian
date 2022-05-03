@@ -3,7 +3,7 @@
 Si intende prendere il controllo di una macchina/programma.
 
 **Cos'è la memory corruption?**
-Si cerca di modificare la memoria di un programma/processo, l'idea è quella che, se riusciamo a prendere controllo della memoria, riusciamo a prendere il controllo dell'interno processo.
+Si cerca di **modificare la memoria di un programma/processo**, l'idea è quella che, **se riusciamo a prendere controllo della memoria, riusciamo a prendere il controllo dell'interno processo**.
 
 **Alcuni esempi:**
 - **Morris (1988)**, primo worm virus, questo programma prendeva una lista di nodi da ciscun computer, si trasformò in un DOS che blocco tutta la rete internet
@@ -12,7 +12,7 @@ Si cerca di modificare la memoria di un programma/processo, l'idea è quella che
 
 ### Memory corruption vulnerability
 
-NB. Buffer è un'area di memoria che noi designiamo per un input dell'utente, che però non andiamo a controllare, di conseguenza possiamo ad andare a scrivere più byte di quanti "richiesti", sovrascrivendo così il codice
+NB. Il **BUFFER è un'area di memoria che noi designiamo per un input dell'utente**, che però non andiamo a controllare, di conseguenza possiamo ad andare a scrivere più byte di quanti "richiesti", sovrascrivendo così il codice
 
 - **BUFFER OVERFLOW**
 - **OUT-Of-BOUNDS ACCESSES**
