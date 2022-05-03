@@ -4,7 +4,7 @@ Nella **reverse engineering** abbiamo un programma, sappiamo che fa alcune cose 
 Alcune motivazioni per fare ciò:
 - analizzare un software proprietario
 - studiare le vulnerabilità di un software
-- c'è una scarsa documentazione
+- c'è una scarsa documentazione del software
 
 ### Reversing in CTFs
 Capire come funziona il codice sorgente da un programma che ci verrà dato.

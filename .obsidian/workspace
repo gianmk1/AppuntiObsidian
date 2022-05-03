@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "PWNing - Tricomi/Lez14 - 18mar (Intro).md",
+            "file": "Reverse Engineering - Tricomi/Lez11_1 - 11mar (Intro).md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PWNing - Tricomi/Lez14 - 18mar (Intro).md",
+                "file": "Reverse Engineering - Tricomi/Lez11_1 - 11mar (Intro).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +89,8 @@
   },
   "active": "f8543a8cf57f1e27",
   "lastOpenFiles": [
+    "Reverse Engineering - Tricomi/Lez11_1 - 11mar (Intro).md",
+    "Reverse Engineering - Tricomi/Lez10 - 11mar.md",
     "PWNing - Tricomi/Lez14 - 18mar (Intro).md",
     "Ethical Hacking - Pajola/Lez9 - 09mar - Web injection Attacks.md",
     "Ethical Hacking - Pajola/Lez8 - 08mar - Web language vulnerability.md",
@@ -96,8 +98,6 @@
     "Ethical Hacking - Pajola/Lez6 - 08mar - Web intro.md",
     "Ethical Hacking - Pajola/Lez5 - 16feb - User authentication.md",
     "Ethical Hacking - Pajola/Lez4 - 10feb - Crypto Tools pt2.md",
-    "Ethical Hacking - Pajola/Lez3 - 03feb - Crypto Tools pt1.md",
-    "Ethical Hacking - Pajola/Lez1 - 26gen - Intro.md",
-    "Ethical Hacking - Pajola/Lez2 - 01feb - Encoding.md"
+    "Ethical Hacking - Pajola/Lez3 - 03feb - Crypto Tools pt1.md"
   ]
 }

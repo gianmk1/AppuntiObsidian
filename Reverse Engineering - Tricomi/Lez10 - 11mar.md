@@ -110,7 +110,7 @@ struct persona {
 } ...
 
 ### Puntatori
-**Sono delle variabili che puntano ad altre variabili**.
+**Sono delle variabili che puntano ad altre variabili** poichè **contengono l'indirizzo** di quest'ultime.
 
 Il puntatore salva al suo interno l'indirizzo di memoria di quella variabile, diventa in pratica un **alias**.
 
@@ -118,11 +118,10 @@ Per definire il puntatore di tipo intero:
 int *ip;
 
 Assegnare un indirizzo:
-int *ip = &a;
+int *ip = &a;  // a è un intero già dichiarato
 
 ### Chiamate 
-- **Call by value**: quando richiamiamo una funzione **viene creata una copia della variabile**, che poi verrà utilizzata all'interno di una funzione
+- **Call by value**: quando richiamiamo una funzione **viene creata una copia della variabile** passata come parametro, che poi verrà utilizzata all'interno di una funzione
+Il contenuto della **variabile originaria NON sarà intaccata** da ciò che faremo all'interno della funzione.
 
-	Il contenuto della variabile originaria NON sarà intaccato da ciò che faremo all'interno della funzione.
-
-- **Call by reference**: es. fun(&a) , in questo modo tutto ciò che accadrà all'interno della funzione avrà poi effetto sulla variabile stessa.
+- **Call by reference**: es. **fun(&a)** , in questo modo tutto ciò che accadrà all'interno della funzione **avrà poi effetto sulla variabile stessa**.
