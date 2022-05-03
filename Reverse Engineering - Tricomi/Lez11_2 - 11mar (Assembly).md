@@ -6,21 +6,25 @@ L'archittettura dei nostri computer è x86_64 (32 o 64bit)
 In memoria viene prima di tutto caricato l'eseguibile, cui ha diverse sezioni:
 - TEXT : il codice
 - PIT
-- RODATA : ...
-- ...
+- RODATA : dati in sola lettura
+- GOT
+- DATA: dati in lettura/scrittura
+
+![[memory.png]]
 
 **RIP** è un'area di memoria in cui si ha accesso in mamiera più o meno regolare
 
 R --> 8 byte
 E --> 4 byte
 
-**STACK** è invece controllato direttamente dal processore è ha un **struttura molto rigida**, l'ultima cosa ad essere inserità sarà l'ultima cosa ad essere tolta. Si parte dal basso e si continua verso l'alto.
+**STACK** è invece controllato direttamente dal processore è ha un **struttura molto rigida**, l'**ultima cosa ad essere inserità sarà l'ultima cosa ad essere tolta**. Si parte dal basso e si continua verso l'alto.
 
 NB. **Lo STACK cresce AL CONTRARIO di come crescono gli indirizzi di memoria.**
 
 La CPU lavora con **REGISTRI** che sono le **variabili del processore**.
 
-![[inserisci schema delle slide]]
+## Registri
+![[registers.png]]
 
 Ci sono diversi tipi di registri:
 - **general porpuse** : utilizzati per qualsiasi cosa, in un'architettura 64bit i registri sono grandi 64bit 
@@ -29,7 +33,7 @@ Ci sono diversi tipi di registri:
 - **instruction ptr**
 
 ## Alcune istruzioni
-Il primo operando è la destinazione della nostra operazione e il secondo è la sorgente.
+**NB**. Il **primo operando è la destinazione** della nostra operazione e il **secondo è la sorgente**.
 
 **MOV**
 es. MOV EAX = EBX ---> EAX = EBX

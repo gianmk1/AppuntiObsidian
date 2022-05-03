@@ -1,7 +1,7 @@
 # Lesson 13: Debugging
 Il debugging è nato come un tool per ispezionare qualsiasi processo.
 
-*Ad un certo punto i programmi iniziano a fare cose diverse di quelle che pensavano, bisogna analizzare quindi i vari stati di un programma.*
+*Ad un certo punto i programmi iniziano a fare cose diverse di quelle che pensavano, bisogna **analizzare quindi i vari stati di un programma**.*
 
 Utile anche per **trovare vulnerabilità e sfruttarle**.
 
@@ -12,8 +12,7 @@ Conseguenza: sviluppare delle tecniche per capire se un determinato programma st
 ### Come funziona un debugger?
 ![[schema riassuntivo]]
 
-
-**Un programma può essere debuggato soltanto da un altro processo.**
+**Un programma può essere debuggato soltanto da un SOLO altro processo.**
 
 GDB (debugger) è un processo che può controllare più programmi allo stesso tempo, spawnare nuovi processi o attaccarsi a processi già esistenti.
 
@@ -37,12 +36,12 @@ ptrace ritorna un valore che ci dice se il debugging ha funzionato o meno (-1 se
 
 Una delle tattiche di anti-debug di un malware potrebbe essere quella di inserire dei CC all'interno del codice per evitare che il debugging funzioni correttamente.
 
-### Recap
-- Un debugger può fare debugging di più processi
-- Un debuggato può essere controllato da un solo debug per volta
+#### Recap
+- Un **debugger può fare debugging di più processi**
+- Un **programma debuggato può essere controllato da un solo debug** per volta
 - i Breakpoint sono dei **0xCC** inseriti all'interno del debuggato
 
-**NB**. Il CC ferma temporaneamete l'esecuzione di un programma.
+**NB**. I **0xCC ferma temporaneamete l'esecuzione** di un programma.
 <br>
 
 ## Anti-debugging
@@ -56,7 +55,7 @@ Quindi possiamo invocare ptrace su noi stessi, se c'è qualcuno che sta cercando
 **NB**. Per disabilitare ciò dobbiamo fare **analisi-statica**, trovare il ptrace() e rimuoverlo.
 
 ### GDB env variable
-Alcune versioni di GDB quando vengono avviate, settano delle variabili d'ambiente. Queste permettono al nostro programma di capire se c'è qualcuno che sta cercando di debuggare.
+Alcune versioni di **GDB** quando vengono avviate, **settano delle variabili d'ambiente**. Queste **permettono al nostro programma di capire se c'è qualcuno che sta cercando di debuggare**.
 
 ### GDB heap relocated
 ...

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Reverse Engineering - Tricomi/Lez11_1 - 11mar (Intro).md",
+            "file": "Web e mobile (prof. Chiarello)/MVC.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Reverse Engineering - Tricomi/Lez11_1 - 11mar (Intro).md",
+                "file": "Web e mobile (prof. Chiarello)/MVC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "f8543a8cf57f1e27",
   "lastOpenFiles": [
+    "Web e mobile (prof. Chiarello)/MVC.md",
+    "Web e mobile (prof. Chiarello)/Android Studio.md",
+    "Reverse Engineering - Tricomi/Lez13 - 16mar (Debugging).md",
+    "Reverse Engineering - Tricomi/Lez12 - 15mar (Patching).md",
+    "Reverse Engineering - Tricomi/Lez11_2 - 11mar (Assembly).md",
     "Reverse Engineering - Tricomi/Lez11_1 - 11mar (Intro).md",
     "Reverse Engineering - Tricomi/Lez10 - 11mar.md",
     "PWNing - Tricomi/Lez14 - 18mar (Intro).md",
     "Ethical Hacking - Pajola/Lez9 - 09mar - Web injection Attacks.md",
-    "Ethical Hacking - Pajola/Lez8 - 08mar - Web language vulnerability.md",
-    "Ethical Hacking - Pajola/Lez7 - 08mar - Ingredients of web.md",
-    "Ethical Hacking - Pajola/Lez6 - 08mar - Web intro.md",
-    "Ethical Hacking - Pajola/Lez5 - 16feb - User authentication.md",
-    "Ethical Hacking - Pajola/Lez4 - 10feb - Crypto Tools pt2.md",
-    "Ethical Hacking - Pajola/Lez3 - 03feb - Crypto Tools pt1.md"
+    "Ethical Hacking - Pajola/Lez8 - 08mar - Web language vulnerability.md"
   ]
 }

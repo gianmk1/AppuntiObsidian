@@ -25,17 +25,17 @@ Tornare indietro dalle istruzioni 0/1 al source code
 Solitamente però da 0-1 si passa ad **assembly** e da questo ritornare al source code.
 
 ## Il ciclo di vita di un programma
-1. Si parte dal source code
-2. Un compilatore dal source code produce un object code
-3. Un link prende le librerie e le va unire al codice sorgente (importa negli eseguibili)
-4. Viene prodotto l'eseguibile
-5. Vengono importate, eventualmente, dinamicamente delle altre librerie
-6. Inizia il processo
+1. Si parte dal **source code**
+2. Un **compilatore** dal source code produce un **object code**
+3. Un **linker prende le librerie "statiche"e le va unire al codice sorgente** (importa negli eseguibili)
+4. Viene prodotto l'**eseguibile**
+5. Vengono **importate**, eventualmente, **dinamicamente delle altre librerie**
+6. Inizia il **processo**
 
 La parte di compiler e linker ci fanno perdere il source code.
 
 ## Analisi
-**1. STATICA**: senza eseguire il programma
+**1. STATICA**: **senza** eseguire il programma
 **2. DINAMICA**: quando si esegue il programma attraverso il **debugger**
 
 ## Eseguibili

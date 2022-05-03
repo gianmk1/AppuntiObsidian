@@ -51,13 +51,11 @@ NB. I byte all'interno del bunary solitamente sono codificati in Little Endian
 
 
 ### Cosa possiamo fare?
-- **Utilizzare i NOP** per eliminare alcune istruzioni / set di registri / ... , mettendo più NOP di quanti l'istruzione ne prenda. Quando si "noppa un istruzione" bisogna riempire tutti i byte (es. nella call 5 byte)
-
+- **Utilizzare i NOP** per eliminare alcune istruzioni / set di registri / ... , mettendo più NOP di quanti l'istruzione ne prenda. **Quando si "noppa un istruzione" bisogna riempire tutti i byte** (es. nella call 5 byte)
 **NB**. Per eliminare qualcosa utilizziamo sempre i NOP
-
-- Invertire i branches (JE <-> JNE)
+- **Invertire i branches** (JE <-> JNE)
 - Rimuovere i branches (NOP / JMP)
-- Cambiare alcune costanti
+- **Cambiare** alcune **costanti**
 - **Inserire nuove funzioni all'interno del binary** (prima bisogna scriverla in assembly poi convertirla in binario, trovare un punto vuoto nel binary, aggiungere la funzione, chiamarla, sostituendo alcune istruzioni... in pratica si cerca di **modificare il flow** del programma)
 
 ### DEMO 1_hello_world
