@@ -5,12 +5,12 @@
 
 NB. Quanto trattato qui è completamente diverso dalla **message authentication**
 
-Con i sistemi di autenticazione andiamo a verificare se l'utente può accedere a servizi specifici. Tramite user authentication l'OS gestisce cosa l'utente può vedere o meno.
+Con i sistemi di autenticazione **andiamo a verificare se l'utente può accedere a servizi specifici**. Tramite user authentication l'OS gestisce cosa l'utente può vedere o meno.
 
 4 proprietà per il metodo di verifica dell'user authentication:
-- che si conosce (es. password)
-- che si possiede (es. token)
-- che si ha, static biometrics (es. fingerprint)
+- che si **conosce** (es. **password**)
+- che si **possiede** (es. **token**)
+- che si **ha**, static biometrics (es. **fingerprint**)
 - sistemi dinamici biometrici (es. voce)
 
 Questi tipi di accessi possono essere utilizzati **da soli** o **combinati**.
@@ -66,7 +66,18 @@ Nel nostro PC quindi troveremo il **file con le password** hashate e il **file c
 **NB**. Anche se abbiamo questi valori, è quasi impossibile ritornare la password originaria.
 
 ### Password Craking
-Gli **attacchi dizionario** sono computazionalmente complessi. Si creano quindi delle tabelle **rainbow table** con le passsword già hashate con i vari salt.
+Gli **attacchi dizionario** sono computazionalmente complessi. Si creano quindi delle tabelle **rainbow table** con le **passsword già hashate con tutti i possibili salt**.
 
 ### Password Choices
 Bisogna sempre cercare di istruire gli utenti il più possibile e **dare delle regole**.
+
+### Remote user authentication
+Ci sono due tipologie di autenticazione:
+1. Locale
+2. Remota
+
+Solitamente per l'autenticazione remota si utilizza un meccanismo di **challenge response**:
+1. Utente invia la propria identità
+2. Host risponde con un **nonce**, un **hash function** e **un altra funzione**
+3. L'utente calcola la funzione con tutti gli elementi e la password e **invia il risultato all'host**
+4. L'host **calcola anche lui la funzione con gli elementi e la password che ha salvato** e **compara il risultato** con ciò inviato dall'user

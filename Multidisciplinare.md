@@ -1,0 +1,17 @@
+# Argomenti da studiare
+- [ ] Crypto
+- [ ] Web vulnerabilities
+- [ ] Reverse Engeneering
+- [ ] Pwning
+- [ ] Data privacy & networking
+- [ ] Deep and Dark web
+- [ ] Zignale riassunto
+- [ ] Blockchain
+- [ ] App android (View, Rest, API,...)
+- [ ] MVC - Sql injection
+- [ ] IPv6
+- [ ] Packet Tracer (NAT, ACL,...)
+- [ ] Script Linux / DOS
+- [x] ? Sito web (accessibilità, usabilità,...)
+- [x] Curriculum
+- [ ] Excel aziende
