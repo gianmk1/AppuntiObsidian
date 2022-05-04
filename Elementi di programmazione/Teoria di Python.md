@@ -1355,16 +1355,33 @@ class Banca:
 
 Le **inner classes** vengono utilizzate molto nelle strutture dati, vedi *esercizio 2 - 20apr* 
 
-## Classe ENUM
-**Enumerazione**, nei linguaggi di programmazione ENUM è dichiarata come una struttura, in python è **dichiarata come classe in una libreria esterna** che si chiama **Enum**
+## Classe Enumerazioni (Enum)
+**Enumerazione**, nei linguaggi di programmazione ENUM è dichiarata come una struttura, in python è **dichiarata come classe in una libreria esterna** che si chiama **Enum** (= classe python)
 
 ```python
 import enum
+
+class Color(Enum):
+	ORANGE = 1  # attributi
+	BLU = 2
+	RED = 3
+	BLACK = 4
+	
+# Serve per rendere i nostri attributi delle variabili
+Color.ORANGE
+
+# Possiamo fare delle comparazioni
+Color.BLACK.value < Color.BLU
+
+# Possiamo ad un oggetto dargli il numero dell'ID
+ogg_color = Color(2)
+# Abbiamo così creato un oggetto colore di tipo BLU
 ```
 
-L'**enumerazione** è una sorta di variabile che prende dei valori che definiziamo noi all'interno di una classe.
-
-*Associare da degli ID ad una tag*
+- L'**enumerazione** è una sorta di variabile che prende dei valori che definiziamo noi all'interno di una classe.
+- La classe ENUM ci permette di **specificare dei tag ad un ID** e **rendere i nostri attributi delle variabili**
+- Possiamo anche utilizzare questo per l'importazione dei dati da JSON
+- **È CONSIGLIATO FARE LA CLASSE ENUM IN UN FILE A PARTE**
 
 ![[vedi esercizio 23 apr]]
 
@@ -1395,3 +1412,21 @@ json.dumps()  # permette di caricare in una variabile un testo json
 
 Per utilizzare il file json correttamente dobbiamo conoscere le chiavi,...
 
+## Errori personalizzati
+Creare degli errori personalizzati rende ancora più semplice la comprensione e l'utilizzo del nostro programma.
+
+Per definirli dobbiamo utilizzare le classi. 
+**NB**. Alla fine del nome della classe dobbiamo mettere "Error" per facilitare la comprensione
+```python
+class IDNumberError(ValueError):
+	def __init__(self, *args: object):
+		super().__init__(*args)
+
+# Abbiamo creato una classe derivata di ValueError con tutte le proprietà di
+# quest'ultima
+
+
+# Lanciare l'errore
+raise IDNumberError("ID non valido")
+
+```

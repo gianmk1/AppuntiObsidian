@@ -32,3 +32,10 @@ import random
 random.randomint(0, 100)
 # genera numero interno da 0 a 100
 ```
+
+## Consigli
+1. **Fare sempre cast ANCHE DELLE STRINGHE**
+2. Mettere le **docstring** nelle funzioni/classi
+3. Creare errori personalizzati ma **gestirli sempre prima di quelli generici**
+4. Gestire errori con RAISE
+5. 
