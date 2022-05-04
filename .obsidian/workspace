@@ -4,23 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "591452277a0c683b",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Architettura dei sistemi di elaborazione/Cisco Packet Tracer - prof. Chiarello.md",
-            "mode": "source"
-          }
-        }
-      },
-      {
         "id": "f8543a8cf57f1e27",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Cisco - MULTIDISCIPLINARE.md",
+            "file": "SicurezzaInfo-1/Sicurezza dell informazioni.md",
             "mode": "preview"
           }
         }
@@ -79,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cisco - MULTIDISCIPLINARE.md",
+                "file": "SicurezzaInfo-1/Sicurezza dell informazioni.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,15 +88,15 @@
   },
   "active": "f8543a8cf57f1e27",
   "lastOpenFiles": [
-    "Cisco - MULTIDISCIPLINARE.md",
-    "Architettura dei sistemi di elaborazione/Cisco Packet Tracer - prof. Chiarello.md",
-    "Multidisciplinare.md",
-    "Architettura dei sistemi di elaborazione/Cisco PT - prof. Chiarello DEF.md",
-    "Architettura dei sistemi di elaborazione/Correzione Bombi - verifica 2 parte.md",
-    "Elementi di programmazione/Teoria di Python.md",
-    "Elementi di programmazione/Codice etico in Python.md",
-    "Web e mobile (prof. Chiarello)/Android Studio.md",
-    "Web e mobile (prof. Chiarello)/MVC.md",
-    "inserischi schema.md"
+    "SicurezzaInfo-1/Sicurezza dell informazioni.md",
+    "SicurezzaInfo-1/Modulo 1 - DIFESA.md",
+    "SicurezzaInfo-1/Lez 1 - Panoramica.md",
+    "SicurezzaInfo-1/Lez 2 - Crittografia.md",
+    "SicurezzaInfo-1/Crittografia.md",
+    "SicurezzaInfo-1/User authentication.md",
+    "SicurezzaInfo-1/Social Engineering.md",
+    "PWNing - Tricomi/Lez14 - 18mar (Intro).md",
+    "PWNing - Tricomi/Lez15 - 22mar (Shellcode).md",
+    "Reverse Engineering - Tricomi/Lez13 - 16mar (Debugging).md"
   ]
 }

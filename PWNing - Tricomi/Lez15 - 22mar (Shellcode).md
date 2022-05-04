@@ -18,7 +18,7 @@ Se andiamo a chiamare un'altra funzione **bar**:
 
 Queste funzioni (insieme al BP e locals) definiscono sullo stack 2: **STACK FRAME**.
 
-*A noi interessa sovrascrivere il **return address**. Il base pointer non da molti problemi (anche se messo a caso), il return address invece se gli mettiamo qualcosa a caso fa crashare il programma.*
+> *A noi interessa sovrascrivere il **return address**. Il base pointer non da molti problemi (anche se messo a caso), il return address invece se gli mettiamo qualcosa a caso fa crashare il programma.*
 
 ## Stack overflow: example
 ![[immagine esempio slide]]

@@ -1,6 +1,6 @@
 # IPv6
 ## Link local
-Un indirizzo link local è l'indirizzo di una interfaccia all'interno di una rete broadcast (in pratica una **rete lan**), non è quindi "routato" dai router IPv6
+Un indirizzo link local è l'**indirizzo di una interfaccia all'interno di una rete broadcast** (in pratica una **rete lan**), non è quindi "routato" dai router IPv6
 
 **NB1**. Gli indirizzi IPv6 sono di lunghezza di **128bit**
 **NB2**.  Gli indirizzi **IPv6 identificano sempre una interfaccia** e NON i nodi (router/host)
@@ -27,6 +27,7 @@ MAC: 000C.CF69.EAD7 (48bit)
 --> **FE80** + 020C:CFFF:FE69:EAD7
 --> FE80::020C:CFFF:FE69:EAD7 o **FE80::20C:CFFF:FE69:EAD7**
 
+<br>
 <br>
 
 ## Global Unicast
@@ -68,6 +69,7 @@ Fasi per la definizione di una VPN:
 3. **Associazione mappa-porta**
 
 <br>
+<br>
 
 ## ACL
 Le ACL sono delle **regole per filtrare il traffico** in entrata e uscita da/a un host/rete.
@@ -78,11 +80,11 @@ Esistono **2 tipi di Access List Control**:
 
 #### ACL Standard
 - Le ACL standard hanno un **numero identificativo** compreso tra **1 e 99**.
-- La regola deve essere applicata sull'**interfaccia più vicina alla destinazione del traffico** per filtrarne il traffico in entrata
+- La regola deve essere applicata sull'**interfaccia più vicina alla destinazione del traffico** per filtrarne il traffico in entrata (= rete cui non si potrà accedere)
 
 #### ACL Estese
 - Le ACL estese hanno un **numero identificativo** compreso tra **100-199**.
-- La regole deve essere applicata sull'**interfaccia più vicina alla sorgente del traffico** per filtrare il traffico in uscita
+- La regole deve essere applicata sull'**interfaccia più vicina alla sorgente del traffico** per filtrare il traffico in uscita (= rete con traffico in uscita limitato)
 
 #### Configurazione ACL:
 1. **Definire la regola**
@@ -91,6 +93,7 @@ Esistono **2 tipi di Access List Control**:
 
 **NB**. L'ordine con le quali sono definite le regole all'interno di una ACL è **importante** poichè altrimenti alcune regole potrebbero essere ignorate.
 
+<br>
 <br>
 
 ## NAT
@@ -112,7 +115,8 @@ ip nat inside source static 10.255.255.253 (server_rete_interna) 50.40.30.1 (ind
 - access-list 1 permit 10.0.0.0 0.0.255.255
 - ip nat inside source list 1 interface fa1/0 overload
 
-**NB**. La regola **si applica sulla porta ESTERNA**
+**NB1**. La regola **si applica sulla porta ESTERNA**
+**NB2**. È possibile anche definire un **POOL di indirizzi** con i quali il traffico uscirà dalla rete NAT
 
 #### Port Forwarding
 Le fasi sono simili a quanto visto per il NAT Statico. Per ogni porta bisogna definire il **numero** e se la connessione è di tipo **TCP o UDP**

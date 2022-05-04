@@ -109,9 +109,9 @@ Nel 2009 è stato minato il primo blocco, che valeva 50bitcoin.
 - Si stima che nel 2040 si arriverà al punto accennato sopra
 
 ## Composizione di un blocco bitcoin
-1. Puntatore al blocco precedente
-2. Richieste validate
-3. Proof of work
+1. **Puntatore al blocco precedente**
+2. **Richieste validate**
+3. **Proof of work**
 
 Ma all'interno del blocco c'è anche:
 1. **HEADER**
@@ -137,7 +137,7 @@ NB. La generazione di moneta avviene solo quando viene inserito nella blockchain
 
 Il **merkle root** è un meccanismo col quale si riesce a fare il checksum su tutte la transazioni del blocco.
 
-###### Funzionamento
+##### Funzionamento
 **NON si può tenere un hash per ogni singola transazione**, quindi si crea una struttura ad albero accoppiano 2 hash per volta. Nel caso ci sia una disparità, viene **replicato l'hash**, e si fa l'hash seguente su i 2 replicati.
 
 ### Contenuto del blocco
