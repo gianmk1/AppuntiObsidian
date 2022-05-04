@@ -1430,3 +1430,45 @@ class IDNumberError(ValueError):
 raise IDNumberError("ID non valido")
 
 ```
+
+
+## Esportare in file json
+```python
+out.write(json.dumps(content))
+```
+
+La funzione **dumps** prende il dizionario e lo converte in stinga JSON
+
+NB. Nel file di output "out" il contenuto però sarà in un unica stringa
+
+*vedi esempio lezione 04 maggio 2022*
+
+<br>
+
+## LIbreria OS
+*NB*. *Vedi lezione del 4 maggio 2022*
+
+Mette a disposizione funzioni e variabili per interfacciarsi con il sistema operativo.
+
+Una delle funzioni più utile è **system** che come parametro richiede un comando e lo esegue.
+
+```python
+import os
+
+os.system("cls")
+```
+
+**NB**. Questi comandi sono dipendenti dal sistema operativo in cui stiamo operando, dobbiamo quindi **controllare in quale sistema operativo siamo**, per fare ciò utilizziamo la libreria **platform**
+
+```python
+import platform
+
+print(platform.system())
+# stampa il sistema operativo in cui siamo
+```
+
+**NB**. È possibile **importare un libreria anche all'interno di una singola funzione** e NON globalmente
+
+#### Libreria Platform
+Restituisce qualsiasi informazione tecnica del computer.
+

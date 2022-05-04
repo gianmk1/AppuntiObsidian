@@ -9,7 +9,7 @@ In questo modello è prevista la **suddivisione di un'applicazione in 3 livelli 
 - **Livello output**, si occupa dell'output finale all'utente
 
 ### Schema MVC
-![[inserischi schema]]
+![[mvc-scheme.png]]
 
 ### MODEL: livello dati
 Il livello dati può essere implementato creando una classe base che **gestisce la connessione con il db e le query al database** e più classi che solitamente rappresentano i modelli di dati

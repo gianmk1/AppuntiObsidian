@@ -34,7 +34,7 @@ random.randomint(0, 100)
 ```
 
 ## Consigli
-1. **Fare sempre cast ANCHE DELLE STRINGHE**
+1. **Fare sempre cast**, anche delle **STRINGHE** (es. str(stringa))
 2. Mettere le **docstring** nelle funzioni/classi
 3. Creare errori personalizzati ma **gestirli sempre prima di quelli generici**
 4. Gestire errori con RAISE

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Web e mobile (prof. Chiarello)/MVC.md",
+            "file": "Architettura dei sistemi di elaborazione/Correzione Bombi - verifica 2 parte.md",
             "mode": "source"
           }
         }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301,
-    "collapsed": true
+    "width": 301
   },
   "right": {
     "id": "c586a23a08ab776c",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web e mobile (prof. Chiarello)/MVC.md",
+                "file": "Architettura dei sistemi di elaborazione/Correzione Bombi - verifica 2 parte.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +88,15 @@
   },
   "active": "f8543a8cf57f1e27",
   "lastOpenFiles": [
-    "Web e mobile (prof. Chiarello)/MVC.md",
+    "Architettura dei sistemi di elaborazione/Correzione Bombi - verifica 2 parte.md",
+    "Elementi di programmazione/Teoria di Python.md",
+    "Elementi di programmazione/Codice etico in Python.md",
     "Web e mobile (prof. Chiarello)/Android Studio.md",
-    "Reverse Engineering - Tricomi/Lez13 - 16mar (Debugging).md",
-    "Reverse Engineering - Tricomi/Lez12 - 15mar (Patching).md",
-    "Reverse Engineering - Tricomi/Lez11_2 - 11mar (Assembly).md",
-    "Reverse Engineering - Tricomi/Lez11_1 - 11mar (Intro).md",
-    "Reverse Engineering - Tricomi/Lez10 - 11mar.md",
-    "PWNing - Tricomi/Lez14 - 18mar (Intro).md",
-    "Ethical Hacking - Pajola/Lez9 - 09mar - Web injection Attacks.md",
-    "Ethical Hacking - Pajola/Lez8 - 08mar - Web language vulnerability.md"
+    "Web e mobile (prof. Chiarello)/MVC.md",
+    "inserischi schema.md",
+    "Architettura dei sistemi di elaborazione/Cisco Packet Tracer - prof. Chiarello.md",
+    "Web e mobile (prof. Chiarello)/PDF/guida-wordpress.pdf",
+    "Web e mobile (prof. Chiarello)/Images/InkedVariabileAmbienteJava_LI.jpg",
+    "Multidisciplinare.md"
   ]
 }
