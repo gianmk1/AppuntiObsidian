@@ -1472,3 +1472,33 @@ print(platform.system())
 #### Libreria Platform
 Restituisce qualsiasi informazione tecnica del computer.
 
+<br>
+<br>
+
+## Libreria: REQUESTS
+Quando il nostro codice utilizza delle librerie esterne bisogna **specificarlo nei "requirments.txt"**.
+
+REQUESTS è la libreria standard di python per **fare richieste web e scaricare il contenuto della pagina**. Come risultato potremmo avere:
+- Codice HTML
+- File JSON
+- Byte code
+- ...
+
+```python
+import requests
+
+r = requests.get("https://www.google.com")
+print(r.status_code)
+
+# Ritorna 200 se il sito è on e accessibile
+
+```
+
+Altre funzioni di **requests**:
+- **.content** --> Ritorna il codice della pagina, o nel caso (ad esempio) di una immagine, il suo bytecode.
+
+**NB**. Con questo metodo è possibile scaricare qualsiasi immagine/documento/... presente su internet
+
+**API KEY**: è la chiave che di identifica
+
+Solitamente è buona cosa salvare l'API KEY in una variabile a inizio codice, e **darla come parametro**.

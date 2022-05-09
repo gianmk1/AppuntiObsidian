@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SicurezzaInfo-1/Sicurezza dell informazioni.md",
-            "mode": "preview"
+            "file": "Elementi di programmazione/Teoria di Python.md",
+            "mode": "source"
           }
         }
       }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301
+    "width": 458.0121879577637,
+    "collapsed": true
   },
   "right": {
     "id": "c586a23a08ab776c",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SicurezzaInfo-1/Sicurezza dell informazioni.md",
+                "file": "Elementi di programmazione/Teoria di Python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "f8543a8cf57f1e27",
   "lastOpenFiles": [
-    "SicurezzaInfo-1/Sicurezza dell informazioni.md",
-    "SicurezzaInfo-1/Modulo 1 - DIFESA.md",
-    "SicurezzaInfo-1/Lez 1 - Panoramica.md",
-    "SicurezzaInfo-1/Lez 2 - Crittografia.md",
-    "SicurezzaInfo-1/Crittografia.md",
-    "SicurezzaInfo-1/User authentication.md",
-    "SicurezzaInfo-1/Social Engineering.md",
-    "PWNing - Tricomi/Lez14 - 18mar (Intro).md",
+    "Elementi di programmazione/Teoria di Python.md",
+    "Architettura dei sistemi di elaborazione/Elementi di Sicurezza.md",
+    "Architettura dei sistemi di elaborazione/Livello di Trasporto (in Internet).md",
+    "Architettura dei sistemi di elaborazione/Correzione Bombi - verifica 2 parte.md",
+    "Web e mobile (prof. Chiarello)/Windows Server.md",
+    "Architettura dei sistemi di elaborazione/Protocollo DNS.md",
+    "Web e mobile (prof. Chiarello)/Wordpress.md",
+    "Web e mobile (prof. Chiarello)/Android Studio.md",
     "PWNing - Tricomi/Lez15 - 22mar (Shellcode).md",
-    "Reverse Engineering - Tricomi/Lez13 - 16mar (Debugging).md"
+    "Cisco - MULTIDISCIPLINARE.md"
   ]
 }
