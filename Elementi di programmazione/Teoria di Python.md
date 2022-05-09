@@ -1473,7 +1473,6 @@ print(platform.system())
 Restituisce qualsiasi informazione tecnica del computer.
 
 <br>
-<br>
 
 ## Libreria: REQUESTS
 Quando il nostro codice utilizza delle librerie esterne bisogna **specificarlo nei "requirments.txt"**.
@@ -1502,3 +1501,29 @@ Altre funzioni di **requests**:
 **API KEY**: è la chiave che di identifica
 
 Solitamente è buona cosa salvare l'API KEY in una variabile a inizio codice, e **darla come parametro**.
+
+<br>
+
+## Libreria: TKINTER
+Questa libreria permette di creare **finestre con all'interno dei widget** (bottoni, box, checkbox, input type text, ...)
+
+Per dare le posizioni dei widget:
+- Funzione **place**, che chiede le coordinate dove posizionare il widget
+- Posizionare tramite una **griglia**: si presuppone che la finestra sia divisa in righe e colonne
+
+**NB**. Se non ci sono altri widget la grigia non viene costruita, quindi **meglio utilizzare .place**.
+
+Per richiamare la funzione tramite un pulsante dobbiamo utilizzare il **puntatore, riferimento** di quest'ultima, quindi **non scriviamo le parentesi**.
+
+*Esempio:*
+```python
+tk.Button(window, text="Close", command=exit).grid(row=2, column=5)
+```
+
+**NB**. L'angolo in alto-sx è 0,0
+
+*Altri widget che possiamo utilizzare sono:*
+- **LabelFrame** ->
+- PhotoImage -> per caricare immagini
+- Message -> per box con informazioni
+- **Entry --> casella di testo**
