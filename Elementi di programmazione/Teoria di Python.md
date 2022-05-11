@@ -1527,3 +1527,21 @@ tk.Button(window, text="Close", command=exit).grid(row=2, column=5)
 - PhotoImage -> per caricare immagini
 - Message -> per box con informazioni
 - **Entry --> casella di testo**
+
+I widget hanno una **discendenza** che di solito si definisce **padre - figlio**. Solitamente il padre controlla il figlio. Il figlio avrà un **posizionamento relazionare** rispetto al widget padre.
+
+Per **espandere** i widget utilizziamo la funzione **pack()**:
+*Prende il widget figlio e lo pacchetta all'interno il padre, seguendo delle specifiche*
+
+```python
+label = tk.Label(window, text="Label di prova", bg="black", fg="white")  
+# conviene usare enumerazione: Color.BLACK
+label.pack(expand=True)
+
+# in questo modo occuperà tutto lo spazio della finestra, senza però riempirlo
+```
+
+- Una **LIST BOX** è una lista grafica, simile ad un array.
+- Il widget **FRAME** viene utilizzato per raggruppare gli oggetti
+
+Le **sezioni** di un **MENU** sono degli **altri menu** con il **menu principale come Padre**
