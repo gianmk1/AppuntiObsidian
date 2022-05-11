@@ -1542,6 +1542,13 @@ label.pack(expand=True)
 ```
 
 - Una **LIST BOX** è una lista grafica, simile ad un array.
-- Il widget **FRAME** viene utilizzato per raggruppare gli oggetti
+- Il widget **FRAME** viene utilizzato per raggruppare gli oggetti, quando all'interno contiene dei widget: **si ridimensiona per avere le stesse dimensioni dei widget**
 
 Le **sezioni** di un **MENU** sono degli **altri menu** con il **menu principale come Padre**
+
+**NB**. I widget possono essere **intesi come dei dizionari**, cambiando il valore di una chiave, il **widget viene ricaricato**
+
+
+**NB**: **NON si possono creare 2 finestre principali**, per ovviare a ciò si utilizza **TopLevel**
+
+*vedi lezione del 11 maggio 2022*
