@@ -37,6 +37,8 @@ I dati possono provenire da:
 
 Un file **CSV** è un file di testo in cui le **colonne sono separate dalla virgole** e le **righe sono separate dagli a capo**.
 
+Per gestire i dati di una rubrica non è conveniente utilizzare una lista di liste poichè tramite **dizionario possiamo richiamare la chiave** quindi è una questione di **comodità**, (quindi una **LISTA DI DIZIONARI**)
+
 ## Libreria PANDAS
 È una delle librerie principali per la manipolazione di dati.
 
@@ -75,3 +77,76 @@ Le colonne della tabella in cui non ci sono riferimenti saranno **NaN**
 <br>
 
 Una **MASCHERA** è una condizione di True o False
+
+L'**analytics** è uno dei campi fondamentali in python
+
+# Lez 24 maggio
+#### Canali Youtube validi
+- **corey schafer** -> Python, Pandas, Matplotlib, Django
+- **socratica** -> Python, SQL
+- **ThreeBlueOneBrown** -> Statistica, Matematica, Algebra lineare
+- **StatQuest** -> Machine Learning
+
+## Intelligenza artificiale
+Nell'**intelligenza artificiale** noi cerchiamo di fare imparare alle macchine **tramite la statistica**. Tipicamente ci sono 3 ambiti nel machine learning:
+- **Classificazione**, da degli esempi viene data un etichetta
+- **Regressione**, prevedere dei valori continui
+- **Clustering**, anche detto apprendimento NON supervisionato, questo si utilizza quando non abbiamo a disposizione degli esempi con soluzione
+
+**NB**. Una macchina può memorizzare o può apprendere.
+
+## continuazione di Pandas
+I 2 oggetti principali di Pandas sono:
+- **DATAFRAME**,  è una rappresentazione del database. I dataframe hanno una serie di metodi per semplificare le operazioni sui dati.
+- **SERIE**
+
+Il problema di quando si utilizzano delle librerie è che bisogna **impararle**, per fare questo è consigliato **leggere la documentazione**.
+
+[Pandas - guida](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
+
+##### Variabile categorica VS continua
+La variabile **categorica** sono delle categorie, nel machine learning qualcosa appartiene ad una categoria ma tra di loro non sono ordinate.
+
+Le variabili **continue** invece possono essere ad esempio 2021, 2022, 2023 cioè **ordinabili**. Le variabili continue possono essere o meno numeriche (come quelle categoriche).
+
+**NB**. Le variabili booleane sono categoriche.
+
+<br>
+
+*vedi esericizi del 24 maggio 2022*
+
+Gli **attributi principali di un oggetto dataframe** sono l'**INDICE** e le **COLONNE**.
+
+**Pandas** è ottimizzato per le **operazioni vettorializzate** quindi non c'è bisogno di utilizzare i **FOR** poichè lenti e dispendiosi di risorse.
+
+**setindex()** serve a sovrascrivere l'indice predefinito della tabella con uno da noi assegnato
+
+**NB**. **Nan** = **valore mancante**
+
+### Grafici
+Molto spesso abbiamo la necessità di rappresentare dei dati, per fare ciò dobbiamo presentare i dati nel modo più semplice / diretto possibile, utilizzando quindi **grafici**.
+
+È fondamentale **scegliere il tipo di grafico** più adatto allo scopo.
+
+**NB**. La **gaussiana** è una distribuzione teorica caratteristica di un evento casuale.
+
+Per prima cosa dobbiamo importare il modulo **pyplot** dalla libreria **matplotlib**.
+Noi useremo l'usage pattern **Object-oriented API** (cioè quello orientato agli oggetti).
+
+L'oggetto base di matplotlib è la **FIGURE** che è un oggetto contenitore, all'interno di questo sono presenti altri oggetti come **axis**,...
+
+##### pyploy.subplots
+**pyplot.subplots** è la funzione base che permette di creare la figura, questa permette di creare più **plot** nella stessa figura.
+Nella stessa figura possiamo **metterci più grafici**, creando quindi una **matrice di grafici**.
+
+Le **axs sono le aree di disegno** dove andiamo a fare i grafici veri e propri.
+
+**Squeeze = False** ???
+
+Per fare un **grafico a barre** dobbiamo utilizzare il metodo **.bar()** di **ax**.
+
+[Metodi di Axes](https://matplotlib.org/stable/api/axes_api.html#id5)
+
+Per selezionare tramite indice:
+frazione_sopravvissuti_classe.loc[indice]
+
