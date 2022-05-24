@@ -18,7 +18,7 @@ Legge di **Pareto** dice che in qualsiasi processo/situazione ci sono pochi fatt
 
 Durante l'analisi è importante riuscire a fare una **stratificazione dei dati raccolti**, 
 
-La tecnica dei 5 perchè server per **passare dalle cause evidenti a quelle apparenti**
+La tecnica dei 5 perchè serve per **passare dalle cause evidenti a quelle apparenti**
 
 Obiettivi che si ci pone nel processo di miglioramento devono essere **SMART**: specifici, misurabili, ...
 
