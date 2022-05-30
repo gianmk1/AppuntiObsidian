@@ -105,9 +105,9 @@ Il problema di quando si utilizzano delle librerie è che bisogna **impararle**,
 [Pandas - guida](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
 
 ##### Variabile categorica VS continua
-La variabile **categorica** sono delle categorie, nel machine learning qualcosa appartiene ad una categoria ma tra di loro non sono ordinate.
+La variabile **CATEGORIA** sono delle categorie, nel machine learning qualcosa appartiene ad una categoria ma tra di loro non sono ordinate.
 
-Le variabili **continue** invece possono essere ad esempio 2021, 2022, 2023 cioè **ordinabili**. Le variabili continue possono essere o meno numeriche (come quelle categoriche).
+Le variabili **CONTINUE** invece possono essere ad esempio 2021, 2022, 2023 cioè **ordinabili**. Le variabili continue possono essere o meno numeriche (come quelle categoriche).
 
 **NB**. Le variabili booleane sono categoriche.
 
@@ -150,3 +150,7 @@ Per fare un **grafico a barre** dobbiamo utilizzare il metodo **.bar()** di **ax
 Per selezionare tramite indice:
 frazione_sopravvissuti_classe.loc[indice]
 
+<br>
+<br>
+
+## Backend con Python
