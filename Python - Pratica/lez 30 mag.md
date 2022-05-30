@@ -47,3 +47,24 @@ Associata all'applicazione dobbiamo avere quindi anche un DB che è in grado di 
 La misura deve essere associata poi alle impostazioni con cui è stata fatta, queste le troviamo in un'altra tabella
 
 **NB**. Come **primary key** utilizzeremo il **MAC address**
+
+#### Decoratori
+I decoratori servono per fare l'**iniezione di codice**. 
+
+Questo che metteremo dentro hello_world sarà un **aggiunta** rispetto alla struttura già realizzata, definita tramite @app.route
+
+@app.route appartiene a flask
+
+## Scrittura server.py
+La **variabile request** è di tipo **GLOBALE** e tramite essa andiamo a catturare la richiesta HTTP effettuata, uno degli attributi di questa è **method** che specifica con quale **metodo è stata effettuata la richiesta http**.
+
+Se ritorniamo un dizionario in flask questo lo **converte in un JSON**
+
+if __name__ == '__main__':
+serve per fare in modo che questo comando venga eseguito soltanto se questo è il programma principale che viene lanciato
+
+Come database ne utilizzeremo uno di tipo **SQLite3**
+
+**NB**. **LOADS** e **DUMPS** lavorano direttamente con le stringhe, mentre **LOAD** e **DUMP** lavorano appoggiandosi su un file
+
+**NB**. Andare sul canale YouTube **corey schafer** e cercare la playlist riguardante FLASK
