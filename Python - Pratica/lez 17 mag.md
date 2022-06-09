@@ -99,8 +99,8 @@ Nell'**intelligenza artificiale** noi cerchiamo di fare imparare alle macchine *
 
 ## continuazione di Pandas
 I 2 oggetti principali di Pandas sono:
-- **DATAFRAME**,  è una rappresentazione del database. I dataframe hanno una serie di metodi per semplificare le operazioni sui dati.
-- **SERIE**
+- **DATAFRAME**,  è una **rappresentazione del database**. I dataframe hanno una **serie di metodi per semplificare le operazioni sui dati**, è quindi un **array a due dimensioni**
+- **SERIE** è una struttura a **dimensione singola che mette a disposizione una coppia chiave - valore**, **simile ad un dizionario python**
 
 Il problema di quando si utilizzano delle librerie è che bisogna **impararle**, per fare questo è consigliato **leggere la documentazione**.
 
