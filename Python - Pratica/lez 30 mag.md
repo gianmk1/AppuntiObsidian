@@ -1,7 +1,7 @@
 ## Webapp in Python
 Per fare ciò utilizzeremo principalmente **FLASK**, **REQUEST** e **SQLAlchemy**.
 
-Un **ORM** è una libreria che permette di trattare le classi di un database come degli oggetti, così è possibile utilizzare un DB in Python senza dover passare per SQL.
+Un **ORM** è una libreria che **permette di trattare le classi di un database come degli oggetti**, così è possibile **utilizzare un DB in Python senza dover passare per SQL**.
 
 **NB**. SQLlite fa in modo che un database diventi un file
 
@@ -18,9 +18,9 @@ All'interno dell'header è specificato il **metodo con cui viene fatta la richie
 Anche la risposta HTTP ha al suo interno vari parametri tra cui il **status di risposta** (es. 200, 404, ...)
 
 ### Websocket VS Richista STANDARD
-Con i websocket la connessione viene mantenuta aperta, quindi anche il server può inviare al client
+1. **Con i websocket la connessione viene mantenuta aperta, quindi anche il server può inviare al client.**
 
-Mentre nella richiesta standard il server può solo rispondere ad una richiesta inviata dal client
+2. Mentre nella **richiesta standard il server può solo rispondere ad una richiesta inviata dal client**
 
 ### UML
 Normalmente quando si comincia a scrivere un'applicazione da 0 è consigliabile definire un modello di ciò che vogliamo realizzare.

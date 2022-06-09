@@ -40,7 +40,7 @@ Un file **CSV** è un file di testo in cui le **colonne sono separate dalla virg
 Per gestire i dati di una rubrica non è conveniente utilizzare una lista di liste poichè tramite **dizionario possiamo richiamare la chiave** quindi è una questione di **comodità**, (quindi una **LISTA DI DIZIONARI**)
 
 ## Libreria PANDAS
-È una delle librerie principali per la manipolazione di dati.
+È una delle librerie principali per la **manipolazione di dati**.
 
 *Vedi lezione del 17 maggio 2022*
 
@@ -51,12 +51,14 @@ passeggeri = pandas.read_csv("train.csv")
 
 Pandas è così diffuso poichè è stata scritta una documentazione molto ricca e semplice da leggere.
 
-**DataFrame** è una rappresentazione del database. I dataframe hanno una serie di metodi per semplificare le operazioni sui dati.
+I dati in pandas vengono raggrupati in **dataframe** e in **serie**
+
+**DataFrame** è una **rappresentazione del database**. I dataframe **hanno a disposizione una serie di metodi** per semplificare le operazioni sui dati.
 
 ##### Quali sono le azioni base che si fanno su un DB?
 SELECT -> da sola seleziona le colonne, le **condizioni stringono le righe**, il **group by** invece ...
 
-**NB1**. Il **group by** per categoria crea una struttura temporanea a cui poi esegue una specifica funzione. 
+**NB1**. Il **group by** per categoria **crea una struttura temporanea** a cui poi esegue una specifica funzione. 
 
 ![[vedi screenshoot 1 group by]]
 
@@ -65,12 +67,12 @@ SELECT -> da sola seleziona le colonne, le **condizioni stringono le righe**, il
 ![[vedi screenshoot 2]]
 
 #### Alcune JOIN
-Quando mettiamo insieme 2 tabella, dobbiamo specificare delle condizioni. In una delle 2 tabella potrebbe non esserci il **campo che fa da ponte** tra le 2. 
+**Quando mettiamo insieme 2 tabella, dobbiamo specificare delle condizioni**. In una delle 2 tabella potrebbe non esserci il **campo che fa da ponte** tra le 2. 
 
 **LEFT** JOIN -> prendo tutte le righe della tabella sx (anche quelle che non hanno il ponte con la dx), quindi ci saranno dei campi nulli
 **RIGHT** JOIN -> viceversa
 **INNER** JOIN -> prendo solo gli elementi (righe) che hanno il **campo ponte** in comune tra le 2 tabelle
-**OUTER** JOIN -> prende TUTTE le righe, che abbiano o meno valorizzato il campo che fa da ponte
+**OUTER** JOIN -> prende TUTTE le righe di entrambe le tabelle, che abbiano o meno valorizzato il campo che fa da ponte
 
 Le colonne della tabella in cui non ci sono riferimenti saranno **NaN**
 
@@ -105,11 +107,11 @@ Il problema di quando si utilizzano delle librerie è che bisogna **impararle**,
 [Pandas - guida](https://pandas.pydata.org/docs/user_guide/index.html#user-guide)
 
 ##### Variabile categorica VS continua
-La variabile **CATEGORIA** sono delle categorie, nel machine learning qualcosa appartiene ad una categoria ma tra di loro non sono ordinate.
+La variabile **CATEGORIA** sono delle categorie, nel machine learning qualcosa **appartiene ad una categoria ma tra di loro non sono ordinate**.
 
-Le variabili **CONTINUE** invece possono essere ad esempio 2021, 2022, 2023 cioè **ordinabili**. Le variabili continue possono essere o meno numeriche (come quelle categoriche).
+Le variabili **CONTINUE** invece possono essere ad esempio 2021, 2022, 2023 cioè **ordinabili**. Le **variabili continue possono essere o meno numeriche (come quelle categoriche)**.
 
-**NB**. Le variabili booleane sono categoriche.
+**NB**. Le **variabili booleane sono categoriche**.
 
 <br>
 
@@ -133,7 +135,7 @@ Molto spesso abbiamo la necessità di rappresentare dei dati, per fare ciò dobb
 Per prima cosa dobbiamo importare il modulo **pyplot** dalla libreria **matplotlib**.
 Noi useremo l'usage pattern **Object-oriented API** (cioè quello orientato agli oggetti).
 
-L'oggetto base di matplotlib è la **FIGURE** che è un oggetto contenitore, all'interno di questo sono presenti altri oggetti come **axis**,...
+L'oggetto base di matplotlib è la **FIGURE** che **è un oggetto contenitore, all'interno di questo sono presenti altri oggetti** come **axis**,...
 
 ##### pyploy.subplots
 **pyplot.subplots** è la funzione base che permette di creare la figura, questa permette di creare più **plot** nella stessa figura.
